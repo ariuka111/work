@@ -58,6 +58,9 @@ const Profile = () => {
                 setNumber(true)
         } else {
               console.log(object)
+
+
+              
         
               // axios.post(`https://infosystems.mn/api/users`, { ...object } ).then(response=>{
               //   console.log('response', response)
