@@ -1,6 +1,5 @@
 import React, { useState  } from 'react'
 import styled from 'styled-components'
-import axios from 'axios'
 import {BiUser} from 'react-icons/bi'
 import {HiOutlineMail} from 'react-icons/hi'
 import {RiLockPasswordLine} from 'react-icons/ri'
@@ -57,11 +56,7 @@ const Profile = () => {
         } else if(password.length < 3){
                 setNumber(true)
         } else {
-              console.log(object)
-
-
-              
-        
+              console.log(object);
               // axios.post(`https://infosystems.mn/api/users`, { ...object } ).then(response=>{
               //   console.log('response', response)
               //   setSuccess(true)

@@ -75,31 +75,26 @@ const BodyStyle = styled.div`
     display: flex;
     justify-content: space-between;
     .flex{
-        cursor: pointer;
+      cursor: pointer;
       padding-right: 20px;
       display: flex;
       align-items: center;
       box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
       background-color: white;
       transition: 0.2s ease all;
-      /* &:hover{
-        box-shadow: 1px 1px 14px -10px;
-      } */
-      .text{
-       inline-size: min-content;
-      }
     }
     .flexActive{
         box-shadow: 1px 1px 20px -10px;
         transform: scale(1.057);
     }
-  
     .imgs{
     height: 65px;
+    padding: 10px;
     }
     span{
       font-size: 14px;
       font-weight: bold;
+      padding-left: 15px;
     }
   }
   .word{
